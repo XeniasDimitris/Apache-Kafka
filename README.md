@@ -1,5 +1,5 @@
 
-![github-large](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQEjhx1qkUHowIO9a9Jt3APiQu28HR57RvaprU1c04gPUtMBioi&usqp=CAU)
+![github-large](https://softwareengineeringdaily.com/wp-content/uploads/2015/08/kafka-logo-wide.png)
 ## 1) Introduction
 This repository contains a presentation of Apache Kafka tool in pdf format and 2 Code Snippets,one for a Kafka Producer and one for a Kafka Consumer.
 
