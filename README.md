@@ -58,7 +58,7 @@ $ sudo systemctl start mongod
 
 Now everything is ready!
 
-## Run-Time
+## 3) Run-Time
 Open in jupyter lab the Code Snippets for Consumer and Producer in two different tabs.
 ```sh
 $ jupyter lab
