@@ -71,4 +71,4 @@ $ mongo
 > db.Covid.find().pretty()
 ```
 we will see the records to be stored in our Database!
-```
+
