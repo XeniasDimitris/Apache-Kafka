@@ -57,3 +57,18 @@ $ sudo systemctl start mongod
 ```
 
 Now everything is ready!
+
+## Execution
+Open in jupyter lab the Code Snippets for Consumer and Producer in two different tabs.
+```sh
+$ jupyter lab
+```
+
+Now run all cells for producer and consumer. We see that everytime a producer is publishing a new record to Kafka broker, consumer consumes this record and stores it the Database. If we open a new terminal and type:
+```sh
+$ mongo
+> use Covid
+> db.Covid.find().pretty()
+```
+we will see the records to be stored in our Database!
+```
