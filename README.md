@@ -5,7 +5,7 @@ This repository contains a presentation of Apache Kafka tool in pdf format and 2
 
 The use case scenario for our example is the following:
 #### Producer
-A producer (which is a single program) is downloading data about Covid-19 from [COVID-19 data API](https://rapidapi.com/Gramzivi/api/covid-19-data). These data have the following schema: 
+A producer (which is a single program) downloads data about Covid-19 from [COVID-19 data API](https://rapidapi.com/Gramzivi/api/covid-19-data). These data have the following schema: 
 ```
 {
     "country": "Italy",
@@ -24,7 +24,7 @@ A producer (which is a single program) is downloading data about Covid-19 from [
 }
 ```
 
-As you see, for every particular date and country we take the confirmed, recovered and active cases and deaths from Covid-19. In our example, we assume that our producer is choosing a date window and a particular country to retrieve these data and forwarding (publishing) them in Kafka Cluster sequentially in ascending time (stream of records).
+As you see, for every particular date and country we take the confirmed, recovered and active cases and deaths from Covid-19. In our example, we assume that our producer choses a date window and a particular country to retrieve these data and forwards (publishes) them in Kafka Cluster sequentially in ascending time (stream of records).
 #### Kafka Cluster Architecture
 Our cluster has the One-Node-One-Broker architecture, but we can scale it to Many-Nodes-Many-Brokers.
 
@@ -58,7 +58,7 @@ $ sudo systemctl start mongod
 
 Now everything is ready!
 
-## Execution
+## Run-Time
 Open in jupyter lab the Code Snippets for Consumer and Producer in two different tabs.
 ```sh
 $ jupyter lab
